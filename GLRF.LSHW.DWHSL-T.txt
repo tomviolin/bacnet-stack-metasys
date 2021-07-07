@@ -1,0 +1,11 @@
+>>> GLRF.LSHW.DWHSL-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002988 85 0 3002988 117
+===
+=== Result: ===
+analog-input #3002988
+{
+    present-value: 116.930237
+    units: degrees-fahrenheit
+}
+

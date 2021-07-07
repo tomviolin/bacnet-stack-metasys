@@ -1,0 +1,10 @@
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002725 85 0 3002725 117
+===
+=== Result: ===
+analog-input #3002725
+{
+    present-value: 40.373512
+    units: degrees-fahrenheit
+}
+

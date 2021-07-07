@@ -1,0 +1,121 @@
+Array
+(
+    [analog-input] => 0
+    [analog-output] => 1
+    [analog-value] => 2
+    [binary-input] => 3
+    [binary-output] => 4
+    [binary-value] => 5
+    [calendar] => 6
+    [command] => 7
+    [device] => 8
+    [event-enrollment] => 9
+    [file] => 10
+    [group] => 11
+    [loop] => 12
+    [multi-state-input] => 13
+    [multi-state-output] => 14
+    [notification-class] => 15
+    [program] => 16
+    [schedule] => 17
+    [averaging] => 18
+    [multi-state-value] => 19
+    [trendlog] => 20
+    [life-safety-point] => 21
+    [life-safety-zone] => 22
+    [accumulator] => 23
+    [pulse-converter] => 24
+    [event-log] => 25
+    [global-group] => 26
+    [trend-log-multiple] => 27
+    [load-control] => 28
+    [structured-view] => 29
+    [access-door] => 30
+    [access-credential] => 32
+    [access-point] => 33
+    [access-rights] => 34
+    [access-user] => 35
+    [access-zone] => 36
+    [credential-data-input] => 37
+    [network-security] => 38
+    [bitstring-value] => 39
+    [characterstring-value] => 40
+    [date-pattern-value] => 41
+    [date-value] => 42
+    [datetime-pattern-value] => 43
+    [datetime-value] => 44
+    [integer-value] => 45
+    [large-analog-value] => 46
+    [octetstring-value] => 47
+    [positive-integer-value] => 48
+    [time-pattern-value] => 49
+    [time-value] => 50
+    [notification-forwarder] => 51
+    [alert-enrollment] => 52
+    [channel] => 53
+    [lighting-output] => 54
+)
+<table>
+<tr><th colspan=5>LIFE SUPPORT</th></tr>
+<tr><td>life support chilled water supply-flow</td><td>45.272381</td></tr>
+<tr><td>life support hot water supply leaving buffer tanks-temperature</td><td>116.264809</td></tr>
+<tr><td>life support hot water supply enteriing buffer tanks-temperature</td><td>** object GLRF.LSHW.DWHS-T not found ***</td></tr>
+<tr><td>building hot water supply to life support hx- % open</td><td>4.363564</td></tr>
+<tr><td>life support chilled water supply entering buffer tanks-temperature</td><td>39.404758</td></tr>
+<tr><td>life support hot water supply-flow</td><td>28.563969</td></tr>
+<tr><td>life support chilled water supply leaving buffer tanks-temperature</td><td>39.176495</td></tr>
+<tr><th colspan=5>North Building</th></tr>
+<tr><td>n. building ?????</td><td>** object GLRF.AC-6.SF-C not found ***</td></tr>
+<tr><td>n building,  south side 2nd floor east end</td><td>active</td></tr>
+<tr><td>n. building-main plus north side, 2nd floor east end</td><td>active</td></tr>
+<tr><td>n. building-robotics lab supply fan status</td><td>active</td></tr>
+<tr><td>n. building ?????</td><td>** object GLRF.AC-5.SF-C not found ***</td></tr>
+<tr><td>n. building, supply fan</td><td>active</td></tr>
+<tr><td>n. building?????</td><td>** object GLRF.HV-2.SF-C not found ***</td></tr>
+<tr><td>n. building 3rd floor old lunchroom</td><td>inactive</td></tr>
+<tr><td>n. building- 179 labs, 3rd floor west</td><td>active</td></tr>
+<tr><td>n. building-robotics lab return air fan status</td><td>active</td></tr>
+<tr><th colspan=5>South Building</th></tr>
+<tr><td>room 2020</td><td>** object  not found ***</td></tr>
+<tr><td>fume hood exhaust fan (26)</td><td>active</td></tr>
+<tr><td>chiller operation status-first chiller (south unit)</td><td>1</td></tr>
+<tr><td>hot water pump (2 of three)</td><td>active</td></tr>
+<tr><td>environmental room 2034 temperature</td><td>47.844387</td></tr>
+<tr><td>chiller operation status-second chiller (north unit)</td><td>active</td></tr>
+<tr><td>room 3020</td><td>** object  not found ***</td></tr>
+<tr><td>fume hood exhaust fan (28)</td><td>active</td></tr>
+<tr><td>s. building east air handler return</td><td>active</td></tr>
+<tr><td>corridor 1000A supply fan</td><td>active</td></tr>
+<tr><td>acid hood exhaust fan (41)</td><td>** object GLRF.ACID-EXH41-C not found ***</td></tr>
+<tr><td>chilled beam pump #1 control status</td><td>inactive</td></tr>
+<tr><td>s. building west air handler return</td><td>active</td></tr>
+<tr><td>fire alarm status, n. building</td><td>** object GLRF.Fire.EXISTS BLDG.FIRE-A not found ***</td></tr>
+<tr><td>s. building east energy recovery wheel exhaust</td><td>active</td></tr>
+<tr><td>fire alarm status, s. building</td><td>inactive</td></tr>
+<tr><td>chilled beam supply temperature</td><td>58.308098</td></tr>
+<tr><td>s. building west energy recovery wheel exhaust</td><td>active</td></tr>
+<tr><td></td><td>** object  not found ***</td></tr>
+<tr><td>BSL lab exhaust fan (30)</td><td>active</td></tr>
+<tr><td>chiller operation status-first chiller (south unit)</td><td>inactive</td></tr>
+<tr><td>hot water pump (1 of three)</td><td>active</td></tr>
+<tr><td>west bridge air supply</td><td>active</td></tr>
+<tr><td>chiller demand-second chiller (north unit)</td><td>active</td></tr>
+<tr><td>room 2024</td><td>** object  not found ***</td></tr>
+<tr><td>fume hood exhaust fan (27)</td><td>inactive</td></tr>
+<tr><td>s. building east air handler supply</td><td>active</td></tr>
+<tr><td>hot water pump (3 of three)</td><td>inactive</td></tr>
+<tr><td>environmental room 2066A temperature</td><td>62.592880</td></tr>
+<tr><td>chilled water supply to air handlers</td><td>44.653355</td></tr>
+<tr><td>room 3024</td><td>** object  not found ***</td></tr>
+<tr><td>s. building west air handler supply</td><td>active</td></tr>
+<tr><td>acid hood exhaust fan (42)</td><td>** object GLRF.ACID-EXH42-C not found ***</td></tr>
+<tr><td>s. building east energy recovery wheel supply </td><td>active</td></tr>
+<tr><td>freezer in quarantine corridor</td><td>18.682922</td></tr>
+<tr><td>chilled beam pump #2 control status</td><td>active</td></tr>
+<tr><td>s. building west energy recovery wheel supply </td><td>active</td></tr>
+<tr><td></td><td>** object  not found ***</td></tr>
+<tr><td>BSL lab exhaust fan (29)</td><td>inactive</td></tr>
+<tr><td>chiller demand status- first chiller (south unit)</td><td>inactive</td></tr>
+<tr><td>combined hws and ls hot water temperature</td><td>182.466492</td></tr>
+<tr><td>east bridge air supply</td><td>active</td></tr>
+</table>

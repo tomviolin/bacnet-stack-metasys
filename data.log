@@ -1,0 +1,2058 @@
+>>> GLRF.LSHW.DWHSL-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002988 85 0 3002988 117
+===
+=== Result: ===
+analog-input #3002988
+{
+    present-value: 116.930237
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002988
+1: {
+2:     present-value: 116.930237
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  116.930237
+)
+>>> GLRF.LSHW.DHWS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002734 85 0 3002734 117
+===
+=== Result: ===
+analog-input #3002734
+{
+    present-value: 125.562447
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002734
+1: {
+2:     present-value: 125.562447
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  125.562447
+)
+>>> GLRF.LSHW.DWHS-F <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002737 85 0 3002737 117
+===
+=== Result: ===
+analog-input #3002737
+{
+    present-value: 54.565006
+    units: us-gallons-per-minute
+}
+
+0: analog-input #3002737
+1: {
+2:     present-value: 54.565006
+3:     units: us-gallons-per-minute
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  54.565006
+)
+>>> GLRF.LSHW.HCV-DWH1-O <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 1 3002757 85 1 3002757 117
+===
+=== Result: ===
+analog-output #3002757
+{
+    present-value: 0.000000
+    units: percent
+}
+
+0: analog-output #3002757
+1: {
+2:     present-value: 0.000000
+3:     units: percent
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  0.000000
+)
+>>> GLRF.LSCHW.DWCSL-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002731 85 0 3002731 117
+===
+=== Result: ===
+analog-input #3002731
+{
+    present-value: 38.850899
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002731
+1: {
+2:     present-value: 38.850899
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  38.850899
+)
+>>> GLRF.LSCHW.DWCS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002462 85 0 3002462 117
+===
+=== Result: ===
+analog-input #3002462
+{
+    present-value: 38.916756
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002462
+1: {
+2:     present-value: 38.916756
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  38.916756
+)
+>>> GLRF.LSCHW.DWCS-F <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002465 85 0 3002465 117
+===
+=== Result: ===
+analog-input #3002465
+{
+    present-value: 12.135981
+    units: us-gallons-per-minute
+}
+
+0: analog-input #3002465
+1: {
+2:     present-value: 12.135981
+3:     units: us-gallons-per-minute
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  12.135981
+)
+>>> GLRF.LSHW.HWHXS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002742 85 0 3002742 117
+===
+=== Result: ===
+analog-input #3002742
+{
+    present-value: 115.510452
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002742
+1: {
+2:     present-value: 115.510452
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  115.510452
+)
+>>> GLRF.CB.LSALM-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3004990 85 4 3004990 117
+===
+=== Result: ===
+binary-output #3004990
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3004990
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.PCHWE-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002990 85 0 3002990 117
+===
+=== Result: ===
+analog-input #3002990
+{
+    present-value: 33.189747
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002990
+1: {
+2:     present-value: 33.189747
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  33.189747
+)
+>>> GLRF.HWS.CBLSHWS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3001334 85 0 3001334 117
+===
+=== Result: ===
+analog-input #3001334
+{
+    present-value: 178.116257
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3001334
+1: {
+2:     present-value: 178.116257
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  178.116257
+)
+>>> GLRF.LSHW.HXLSH4CV-O <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 1 3002675 85 1 3002675 117
+===
+=== Result: ===
+analog-output #3002675
+{
+    present-value: 0.000000
+    units: percent
+}
+
+0: analog-output #3002675
+1: {
+2:     present-value: 0.000000
+3:     units: percent
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  0.000000
+)
+>>> GLRF.LSCHW.LSCHWP1-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3002506 85 3 3002506 117
+===
+=== Result: ===
+binary-input #3002506
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3002506
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCHWP2-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3002515 85 3 3002515 117
+===
+=== Result: ===
+binary-input #3002515
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3002515
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.LSHW.DWS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002725 85 0 3002725 117
+===
+=== Result: ===
+analog-input #3002725
+{
+    present-value: 40.373512
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002725
+1: {
+2:     present-value: 40.373512
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  40.373512
+)
+>>> GLRF.LSHW.HXLSH3CV-O <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 1 3002671 85 1 3002671 117
+===
+=== Result: ===
+analog-output #3002671
+{
+    present-value: 0.000000
+    units: percent
+}
+
+0: analog-output #3002671
+1: {
+2:     present-value: 0.000000
+3:     units: percent
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  0.000000
+)
+>>> GLRF.LSHW.LSHWP1-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3002782 85 3 3002782 117
+===
+=== Result: ===
+binary-input #3002782
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3002782
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.LSHW.LSHWP3-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3002653 85 3 3002653 117
+===
+=== Result: ===
+binary-input #3002653
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3002653
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSHW.LSHWP4-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3002662 85 3 3002662 117
+===
+=== Result: ===
+binary-input #3002662
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3002662
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.LSHW.LSHWP2-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3002791 85 3 3002791 117
+===
+=== Result: ===
+binary-input #3002791
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3002791
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.ABSL-EXH.EF29-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3000251 85 4 3000251 117
+===
+=== Result: ===
+binary-output #3000251
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000251
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.ABSL-EXH.EF30-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3000257 85 4 3000257 117
+===
+=== Result: ===
+binary-output #3000257
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000257
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.ACID-EXH.EF41-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3000223 85 4 3000223 117
+===
+=== Result: ===
+binary-output #3000223
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000223
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.ACID-EXH.EF42-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3000230 85 4 3000230 117
+===
+=== Result: ===
+binary-output #3000230
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000230
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.FUME-EXH.EF26-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001172 85 4 3001172 117
+===
+=== Result: ===
+binary-output #3001172
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001172
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.FUME-EXH.EF27-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001185 85 4 3001185 117
+===
+=== Result: ===
+binary-output #3001185
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001185
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.FUME-EXH.EF28-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001198 85 4 3001198 117
+===
+=== Result: ===
+binary-output #3001198
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001198
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.ABSL-EXH.STATIC-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 19 3000936 85 19 3000936 117
+===
+=== Result: ===
+multi-state-value #3000936
+{
+    present-value: 1
+    units: BACnet Error: property: unknown-property
+}
+
+0: multi-state-value #3000936
+1: {
+2:     present-value: 1
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  1
+)
+>>> GLRF.MISC PTS.RO-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 3 3000279 85 3 3000279 117
+===
+=== Result: ===
+binary-input #3000279
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000279
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.MISC PTS.AC-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 3 3000278 85 3 3000278 117
+===
+=== Result: ===
+binary-input #3000278
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000278
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.MISC PTS.VP-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 3 3000280 85 3 3000280 117
+===
+=== Result: ===
+binary-input #3000280
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000280
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.MISC PTS.DECONT-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 3 3012093 85 3 3012093 117
+===
+=== Result: ===
+binary-input #3012093
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3012093
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.CHW.CH1-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3000113 85 4 3000113 117
+===
+=== Result: ===
+binary-output #3000113
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000113
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.CHW.CH1-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003041 85 5 3003041 117
+===
+=== Result: ===
+binary-value #3003041
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003041
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.CHW.CH2-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3000114 85 4 3000114 117
+===
+=== Result: ===
+binary-output #3000114
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000114
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.CHW.CH2-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 3 3000112 85 3 3000112 117
+===
+=== Result: ===
+binary-input #3000112
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000112
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.CHW.SCHS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3000067 85 0 3000067 117
+===
+=== Result: ===
+analog-input #3000067
+{
+    present-value: 71.120010
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3000067
+1: {
+2:     present-value: 71.120010
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  71.120010
+)
+>>> GLRF.CB.CBP1-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3002847 85 4 3002847 117
+===
+=== Result: ===
+binary-output #3002847
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3002847
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.CB.CBP2-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3002856 85 4 3002856 117
+===
+=== Result: ===
+binary-output #3002856
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3002856
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.CB.CBS-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 0 3002838 85 0 3002838 117
+===
+=== Result: ===
+analog-input #3002838
+{
+    present-value: 62.428493
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3002838
+1: {
+2:     present-value: 62.428493
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  62.428493
+)
+>>> CONDMON-ALM <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003260 85 5 3003260 117
+===
+=== Result: ===
+binary-value #3003260
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003260
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.MZ-1.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000291 85 3 3000291 117
+===
+=== Result: ===
+binary-input #3000291
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000291
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.MZ-2.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000284 85 3 3000284 117
+===
+=== Result: ===
+binary-input #3000284
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000284
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.MZ-3.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000302 85 3 3000302 117
+===
+=== Result: ===
+binary-input #3000302
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000302
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AC-4.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000328 85 3 3000328 117
+===
+=== Result: ===
+binary-input #3000328
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000328
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-2.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000352 85 3 3000352 117
+===
+=== Result: ===
+binary-input #3000352
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000352
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AC-5.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000315 85 3 3000315 117
+===
+=== Result: ===
+binary-input #3000315
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000315
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AC-6.SF-S <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.16 ./readprop.sh 509 3 3000318 85 3 3000318 117
+===
+=== Result: ===
+binary-input #3000318
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3000318
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-15.SF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.19 ./readprop.sh 500 4 3000357 85 4 3000357 117
+===
+=== Result: ===
+binary-output #3000357
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000357
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-15.RF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.19 ./readprop.sh 500 4 3000354 85 4 3000354 117
+===
+=== Result: ===
+binary-output #3000354
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000354
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-21.SF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001344 85 4 3001344 117
+===
+=== Result: ===
+binary-output #3001344
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001344
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-21.RF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001346 85 4 3001346 117
+===
+=== Result: ===
+binary-output #3001346
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001346
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-21.ERSF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001378 85 4 3001378 117
+===
+=== Result: ===
+binary-output #3001378
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001378
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-21.EREF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.11 ./readprop.sh 597 4 3001382 85 4 3001382 117
+===
+=== Result: ===
+binary-output #3001382
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001382
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-22.SF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.12 ./readprop.sh 598 4 3000395 85 4 3000395 117
+===
+=== Result: ===
+binary-output #3000395
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000395
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-22.RF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.12 ./readprop.sh 598 4 3000397 85 4 3000397 117
+===
+=== Result: ===
+binary-output #3000397
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000397
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-22.ERSF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.12 ./readprop.sh 598 4 3000429 85 4 3000429 117
+===
+=== Result: ===
+binary-output #3000429
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000429
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.AHU-22.EREF-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.12 ./readprop.sh 598 4 3000433 85 4 3000433 117
+===
+=== Result: ===
+binary-output #3000433
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3000433
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.IOM-86.ENVIRO COLD RM.ZN-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3011385 85 0 3011385 117
+===
+=== Result: ===
+analog-input #3011385
+{
+    present-value: 47.093369
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3011385
+1: {
+2:     present-value: 47.093369
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  47.093369
+)
+>>> GLRF.IOM-28.ENVIRO COLD RM.ZN-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3007779 85 0 3007779 117
+===
+=== Result: ===
+analog-input #3007779
+{
+    present-value: 71.678368
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3007779
+1: {
+2:     present-value: 71.678368
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  71.678368
+)
+>>> GLRF.IOM-67.ENVIRO COLD RM 1024M.ZN-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 0 3008213 85 0 3008213 117
+===
+=== Result: ===
+analog-input #3008213
+{
+    present-value: -0.975427
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3008213
+1: {
+2:     present-value: -0.975427
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  -0.975427
+)
+>>> GLRF.VAV-2000A-2.MICRO-BIO SUPPORT.ZN2020-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3006510 85 0 3006510 117
+===
+=== Result: ===
+analog-input #3006510
+{
+    present-value: 67.641968
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3006510
+1: {
+2:     present-value: 67.641968
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  67.641968
+)
+>>> GLRF.VAV-2000A-2.MICRO-BIO SUPPORT.ZN2024-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3006514 85 0 3006514 117
+===
+=== Result: ===
+analog-input #3006514
+{
+    present-value: 61.196117
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3006514
+1: {
+2:     present-value: 61.196117
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  61.196117
+)
+>>> GLRF.CB-3020-1-4.FREEZER ALCOVE.ZN3020-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3009545 85 0 3009545 117
+===
+=== Result: ===
+analog-input #3009545
+{
+    present-value: 60.945236
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3009545
+1: {
+2:     present-value: 60.945236
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  60.945236
+)
+>>> GLRF.VAV-3000A.CORRIDOR.ZN3024-1-4-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3009434 85 0 3009434 117
+===
+=== Result: ===
+analog-input #3009434
+{
+    present-value: 62.134964
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3009434
+1: {
+2:     present-value: 62.134964
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  62.134964
+)
+>>> GLRF.VAV-2099C.SEQUENCING LAB.ZN2099C-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.13 ./readprop.sh 502 0 3008357 85 0 3008357 117
+===
+=== Result: ===
+analog-input #3008357
+{
+    present-value: 65.778000
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3008357
+1: {
+2:     present-value: 65.778000
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  65.778000
+)
+>>> GLRF.VAV-1074.EQUIP ROOM.ZN1074-T <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 0 3006000 85 0 3006000 117
+===
+=== Result: ===
+analog-input #3006000
+{
+    present-value: 66.999588
+    units: degrees-fahrenheit
+}
+
+0: analog-input #3006000
+1: {
+2:     present-value: 66.999588
+3:     units: degrees-fahrenheit
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  66.999588
+)
+>>> GLRF.Fire.EXIST BLDG.FIRE-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 3 3007812 85 3 3007812 117
+===
+=== Result: ===
+binary-input #3007812
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3007812
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.Fire.NEW ADD.FIRE-A <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 3 3007362 85 3 3007362 117
+===
+=== Result: ===
+binary-input #3007362
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-input #3007362
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.HWS.HWP1-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3001349 85 4 3001349 117
+===
+=== Result: ===
+binary-output #3001349
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001349
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.HWS.HWP2-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3001358 85 4 3001358 117
+===
+=== Result: ===
+binary-output #3001358
+{
+    present-value: active
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001358
+1: {
+2:     present-value: active
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  active
+)
+>>> GLRF.HWS.HWP3-C <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 4 3001367 85 4 3001367 117
+===
+=== Result: ===
+binary-output #3001367
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-output #3001367
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.STEAM.HPS-P <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 0 3007972 85 0 3007972 117
+===
+=== Result: ===
+analog-input #3007972
+{
+    present-value: 150.593521
+    units: pounds-force-per-square-inch
+}
+
+0: analog-input #3007972
+1: {
+2:     present-value: 150.593521
+3:     units: pounds-force-per-square-inch
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  150.593521
+)
+>>> GLRF.STEAM.LPS-P <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.14 ./readprop.sh 503 0 3007975 85 0 3007975 117
+===
+=== Result: ===
+analog-input #3007975
+{
+    present-value: 10.705919
+    units: pounds-force-per-square-inch
+}
+
+0: analog-input #3007975
+1: {
+2:     present-value: 10.705919
+3:     units: pounds-force-per-square-inch
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  10.705919
+)
+>>> GLRF.LSCHW.LSCH-1.M1-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003097 85 5 3003097 117
+===
+=== Result: ===
+binary-value #3003097
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003097
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M1-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003099 85 5 3003099 117
+===
+=== Result: ===
+binary-value #3003099
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003099
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M2-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003101 85 5 3003101 117
+===
+=== Result: ===
+binary-value #3003101
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003101
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M2-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003103 85 5 3003103 117
+===
+=== Result: ===
+binary-value #3003103
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003103
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M3-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003105 85 5 3003105 117
+===
+=== Result: ===
+binary-value #3003105
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003105
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M3-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003107 85 5 3003107 117
+===
+=== Result: ===
+binary-value #3003107
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003107
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M4-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003109 85 5 3003109 117
+===
+=== Result: ===
+binary-value #3003109
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003109
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-1.M4-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003111 85 5 3003111 117
+===
+=== Result: ===
+binary-value #3003111
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003111
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M1-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003167 85 5 3003167 117
+===
+=== Result: ===
+binary-value #3003167
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003167
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M1-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003169 85 5 3003169 117
+===
+=== Result: ===
+binary-value #3003169
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003169
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M2-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003171 85 5 3003171 117
+===
+=== Result: ===
+binary-value #3003171
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003171
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M2-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003173 85 5 3003173 117
+===
+=== Result: ===
+binary-value #3003173
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003173
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M3-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003175 85 5 3003175 117
+===
+=== Result: ===
+binary-value #3003175
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003175
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M3-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003177 85 5 3003177 117
+===
+=== Result: ===
+binary-value #3003177
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003177
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M4-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003179 85 5 3003179 117
+===
+=== Result: ===
+binary-value #3003179
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003179
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-2.M4-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003181 85 5 3003181 117
+===
+=== Result: ===
+binary-value #3003181
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003181
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M1-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003237 85 5 3003237 117
+===
+=== Result: ===
+binary-value #3003237
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003237
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M1-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003239 85 5 3003239 117
+===
+=== Result: ===
+binary-value #3003239
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003239
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M2-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003241 85 5 3003241 117
+===
+=== Result: ===
+binary-value #3003241
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003241
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M2-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003243 85 5 3003243 117
+===
+=== Result: ===
+binary-value #3003243
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003243
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M3-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003245 85 5 3003245 117
+===
+=== Result: ===
+binary-value #3003245
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003245
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M3-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003247 85 5 3003247 117
+===
+=== Result: ===
+binary-value #3003247
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003247
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M4-A_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003249 85 5 3003249 117
+===
+=== Result: ===
+binary-value #3003249
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003249
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)
+>>> GLRF.LSCHW.LSCH-3.M4-B_RUN_STAT <<<
+===
+cd /home/tomh/projects/bacnet; BACNET_BBMD_ADDRESS=10.7.74.15 ./readprop.sh 596 5 3003251 85 5 3003251 117
+===
+=== Result: ===
+binary-value #3003251
+{
+    present-value: inactive
+    units: BACnet Error: property: unknown-property
+}
+
+0: binary-value #3003251
+1: {
+2:     present-value: inactive
+3:     units: BACnet Error: property: unknown-property
+4: }
+Array
+(
+    [0] =>     present-value
+    [1] =>  inactive
+)

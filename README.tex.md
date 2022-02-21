@@ -7,4 +7,4 @@ We put our scripts in the same directory as the BACnet stack stuff for convenien
 
 **[getpics.php](getpics.php)** test
 
-$r=0$
+$$ r = 0 $$
